@@ -2,21 +2,6 @@
 using namespace std;
 
 
-int animals(int chicken, int cows, int pigs){
-	int chkleg = 0, cleg = 0, pleg = 0;
-	int sum=0;
-	for (int i=1; i<=chicken; i++){
-		chkleg += 2;
-	}
-	for (int i=1; i<=cows; i++){
-		cleg += 4;
-	}
-	for (int i=1; i<=pigs; i++){
-		pleg += 4;
-	}
-	sum = chkleg + cleg + pleg;
-	return sum;
-}
 
 
 
